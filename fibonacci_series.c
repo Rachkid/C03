@@ -4,8 +4,6 @@ int main() {
     int limit;  // Variable pour stocker la limite saisie par l'utilisateur
     int a = 0, b = 1, suivant;  // a et b sont les deux premiers nombres de Fibonacci, suivant est le prochain à calculer
 
-    // Demande à l'utilisateur de saisir la valeur limite
-    printf("Entrez la valeur limite : ");
     scanf("%d", &limit);  // Lecture de la valeur limite
 
     // Affichage du début de la série
